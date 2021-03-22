@@ -18,7 +18,7 @@ categories:
 image: images/feature2/color-palette.png
 ---
 
-##  Syntax Highlighting
+## Penguin Syntax Highlighting
 
 Verify the following code blocks render as code blocks and highlight properly. 
 
