@@ -1,32 +1,31 @@
 ---
-title: "Syntax highlighting"
-date: 2019-12-18T10:33:41+09:00
-description: "Syntax highlighting test"
+title: Syntax highlighting
+date: '2019-12-18T10:33:41+09:00'
+description: Syntax highlighting test
 draft: false
 hideToc: false
 enableToc: true
 enableTocContent: false
 author: Jeus
-authorEmoji: 🎅
+authorEmoji: "\U0001F385"
 pinned: true
 tags:
-- hugo
+  - hugo
 series:
--
+  - null
 categories:
-- hugo
+  - hugo
 image: images/feature2/color-palette.png
 ---
-
 ## Code Syntax Highlighting
 
-Verify the following code blocks render as code blocks and highlight properly. 
+**Wooooify** the following code blocks render as code blocks and highlight properly.
 
 More about tuning syntax highlighting is the [Hugo documentation](https://gohugo.io/content-management/syntax-highlighting/).
 
 ### Diff
 
-``` diff {hl_lines=[4,"6-7"]}
+```diff {hl_lines=[4,"6-7"]}
 *** /path/to/original	''timestamp''
 --- /path/to/new	''timestamp''
 ***************
@@ -54,7 +53,7 @@ It is important to spell
 
 ### Makefile
 
-``` makefile {linenos=false}
+```makefile {linenos=false}
 CC=gcc
 CFLAGS=-I.
 
@@ -62,7 +61,7 @@ hellomake: hellomake.o hellofunc.o
      $(CC) -o hellomake hellomake.o hellofunc.o -I.
 ```
 
-``` makefile
+```makefile
 CC=gcc
 CFLAGS=-I.
 
@@ -72,7 +71,7 @@ hellomake: hellomake.o hellofunc.o
 
 ### JSON
 
-``` json
+```json
 {"employees":[
     {"firstName":"John", "lastName":"Doe"},
 ]}
@@ -80,7 +79,7 @@ hellomake: hellomake.o hellofunc.o
 
 ### Markdown
 
-``` markdown
+```markdown
 **bold** 
 *italics* 
 [link](www.example.com)
@@ -88,13 +87,13 @@ hellomake: hellomake.o hellofunc.o
 
 ### JavaScript
 
-``` javascript
+```javascript
 document.write('Hello, world!');
 ```
 
 ### CSS
 
-``` css
+```css
 body {
     background-color: red;
 }
@@ -102,7 +101,7 @@ body {
 
 ### Objective C
 
-``` objectivec
+```objectivec
 #import <stdio.h>
 
 int main (void)
@@ -113,13 +112,13 @@ int main (void)
 
 ### Python
 
-``` python
+```python
 print "Hello, world!"
 ```
 
 ### XML
 
-``` xml
+```xml
 <employees>
     <employee>
         <firstName>John</firstName> <lastName>Doe</lastName>
@@ -129,31 +128,31 @@ print "Hello, world!"
 
 ### Perl
 
-``` perl
+```perl
 print "Hello, World!\n";
 ```
 
 ### Bash
 
-``` bash
+```bash
 echo "Hello World"
 ```
 
 ### PHP
 
-``` php
+```php
  <?php echo '<p>Hello World</p>'; ?> 
 ```
 
 ### CoffeeScript
 
-``` coffeescript
+```coffeescript
 console.log(“Hello world!”);
 ```
 
 ### C#
 
-``` cs
+```cs
 using System;
 class Program
 {
@@ -166,7 +165,7 @@ class Program
 
 ### C++
 
-``` cpp
+```cpp
 #include <iostream.h>
 
 main()
@@ -176,16 +175,16 @@ main()
 }
 ```
 
-### SQL 
+### SQL
 
-``` sql
+```sql
 SELECT column_name,column_name
 FROM table_name;
 ```
 
 ### Go
 
-``` go
+```go
 package main
 import "fmt"
 func main() {
