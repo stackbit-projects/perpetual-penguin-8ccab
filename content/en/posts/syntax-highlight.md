@@ -1,7 +1,7 @@
 ---
 title: Syntax highlighting
 date: '2019-12-18T10:33:41+09:00'
-description: Syntax highlighting Fes
+description: Syntax highlighting Fest
 draft: false
 hideToc: false
 enableToc: true
